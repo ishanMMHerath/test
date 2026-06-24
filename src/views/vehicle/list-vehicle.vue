@@ -266,10 +266,9 @@ import InputGroup from "@/components/InputGroup";
 import Pagination from "@/components/Pagination";
 import {MenuItem} from "@headlessui/vue";
 import Button from "@/components/Button/index.vue";
-import axios from "@/store/axios";
 import Swal from "sweetalert2";
 import {ref} from "vue";
-import {ImageUrl} from "@/store/axios";
+import axios, { ImageUrl } from "@/store/axios.js";
 
 export default {
   components: {
