@@ -6,6 +6,8 @@ import av2Img from "@/assets/images/avatar/av-2.svg";
 
 const toast = useToast();
 
+
+
 export const useKanbanStore = defineStore('kanban',{
     state: () => {
         return {
